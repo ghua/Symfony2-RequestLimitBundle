@@ -1,0 +1,19 @@
+{
+    "name": "ghua/zim32-request-limit-bundle",
+    "type": "symfony-bundle",
+    "description": "With this bundle you can easy limit requests to your application",
+    "keywords": ["request", "limit", "symfony2", "bundle"],
+    "homepage": "https://github.com/ghua/Symfony2-RequestLimitBundle",
+    "authors": [
+        {
+            "name": "Zim32"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "2.*",
+    },
+    "autoload": {
+        "psr-0": { "Zim32\\RequestLimitBundle": "" }
+    },
+    "target-dir": "Zim32/RequestLimitBundle"
+}
